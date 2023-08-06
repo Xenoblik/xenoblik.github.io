@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: aqua;
+
+}
+
+div {
+margin-bottom:5px;
+
+}
+.nav >ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 40px;
+    align-items: center;
+}
+
+a {
+
+   text-decoration: none;
+   margin: 10px;
+
+}
+
+li {
+
+  display: inline-block;
+ 
+}
+
+div {
+  text-align: center;
+}
+
+.container {
+
+  display:grid;
+ 
+  grid-template-columns: repeat(1fr,9);
+  grid-template-rows: 450px auto ;
+
+ 
+  grid-gap: 10px;
+ 
+ 
+
+}
+
+.main {
+
+    grid-row: 1/7;
+    grid-column: 2/6;
+}
+
+.blog {
+
+    grid-row: 1/7;
+    grid-column: 6/9;
+
+
+}
+
+.footer {
+    grid-row: 7/9;
+    grid-column: 1/9;
+
+
+}
+
+.side{
+   grid-row: 1/7;
+   grid-column: 1/2;
+   
+}
+
+.main {
+   
+   background-color: blue;
+   color: white;
+}
+
+
+.blog {
+
+   
+   background-color: darkgray;
+   color: white;
+}
+
+.footer{
+
+ 
+   background-color: black;
+   color: white;
+}
+
+.side{
+
+ 
+   background-color: lightblue;
+   color: white;
+}
+
+
+</style>
+
+
+</head>
+
+<body>
+
+<div>
+<header class="header">
+            <div class="logo">
+                <p>Logo</p>
+            </div>
+            <div class="banner">
+                <p>Banner</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li>   <a href="index.html">Home</a>					</li>
+                    <li> <a href="story.html">Story</a> 					</li>
+                    <li> <a href="event.html"> Events</a>					</li>
+                    <li> <a href="about.html">About</a> 					</li>
+                </ul>
+            </nav>
+</header>
+</div>
+
+
+<div class='container'>
+
+	<div class='side'>
+
+		<h2>Side </h2>
+
+	</div>
+
+	<div class='main'>
+
+		<h2>Main </h2>
+
+<img src='https://freepngimg.com/thumb/car/3-2-car-free-download-png.png' width=300px; >
+
+
+</div>
+
+<div class='blog'>
+
+<h2>Blog </h2>
+<h3>Text 1 </h3>
+<h3>Text 2 </h3>
+<h3>Text 3 </h3>
+
+</div>
+
+<div class='footer'>
+
+<h2>Footer </h2>
+
+</div>
+
+
+</div>
+
+</body>
+</html>
